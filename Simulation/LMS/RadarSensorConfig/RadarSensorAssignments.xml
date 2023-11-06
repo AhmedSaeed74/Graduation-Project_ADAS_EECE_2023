@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<ExperimentConfig>
+  <Federates>
+    <Federate federateId="0" hostId="localhost" gpuId="default gpu" enableOpenCL="False" />
+  </Federates>
+  <SensorAssignments>
+    <SensorAssignment sensorId="BLR" federateId="0" />
+    <SensorAssignment sensorId="BRR" federateId="0" />
+    <SensorAssignment sensorId="FLR" federateId="0" />
+    <SensorAssignment sensorId="FRR" federateId="0" />
+    <SensorAssignment sensorId="LRR" federateId="0" />
+    <SensorAssignment sensorId="SRR" federateId="0" />
+  </SensorAssignments>
+</ExperimentConfig>

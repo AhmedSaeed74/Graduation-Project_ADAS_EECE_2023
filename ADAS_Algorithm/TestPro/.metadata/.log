@@ -1,0 +1,23 @@
+!SESSION 2023-06-06 16:25:13.317 -----------------------------------------------
+eclipse.buildId=Version 1.11.2
+java.version=11.0.16
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -data D:\Graduation Project\RTOS + CAN\TestPro
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2023-06-06 16:25:21.106
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2023-06-06 16:25:21.181
+!MESSAGE Log4j initialized with config file D:\Graduation Project\RTOS + CAN\TestPro\.metadata\.log4j.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2023-06-06 16:25:26.211
+!MESSAGE Started RMI Server, listening on port 41338
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2023-06-06 16:26:06.986
+!MESSAGE Using unsafe http transport to retrieve http://freescale.com/lgfiles/updates/Eclipse/KDS, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.metadata.repository 2 0 2023-06-06 16:26:09.435
+!MESSAGE Error parsing metadata repository
+!SUBENTRY 1 org.eclipse.equinox.p2.core 2 0 2023-06-06 16:26:09.435
+!MESSAGE Error in file:/C:/ST/STM32CubeIDE_1.11.2/STM32CubeIDE/p2/org.eclipse.equinox.p2.repository/cache/content-783366767.jar at line 6767, column 45: Missing required attribute in "unit": id

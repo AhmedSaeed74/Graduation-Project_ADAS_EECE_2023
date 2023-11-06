@@ -1,0 +1,43 @@
+# create sensor mounts and cameras
+LaneMarkerSensor_1_mount = visnodes.VisTransform.createTransformNode(r"LaneMarkerSensor_1_mount")
+scene.Audi_A8_Sedan_1.addChild(LaneMarkerSensor_1_mount)
+scene.getTransformChild("LaneMarkerSensor_1_mount")
+LaneMarkerSensor_1_mount.setTranslation(2, 0, 1.32000005245209)
+LaneMarkerSensor_1_mount.setRotation(0, 1, 0, 0)
+
+LRR_mount = visnodes.VisTransform.createTransformNode(r"LRR_mount")
+scene.Audi_A8_Sedan_1.addChild(LRR_mount)
+scene.getTransformChild("LRR_mount")
+LRR_mount.setTranslation(3.94000005722046, 0, 0.370000004768372)
+LRR_mount.setRotation(0, 1, 0, 0)
+
+SRR_mount = visnodes.VisTransform.createTransformNode(r"SRR_mount")
+scene.Audi_A8_Sedan_1.addChild(SRR_mount)
+scene.getTransformChild("SRR_mount")
+SRR_mount.setTranslation(3.94000005722046, 0, 0.370000004768372)
+SRR_mount.setRotation(0, 1, 0, 0)
+
+FRR_mount = visnodes.VisTransform.createTransformNode(r"FRR_mount")
+scene.Audi_A8_Sedan_1.addChild(FRR_mount)
+scene.getTransformChild("FRR_mount")
+FRR_mount.setTranslation(3.54000005722046, -0.8, 0.370000004768372)
+FRR_mount.setRotation(0.38397243543875226, 0, 0, -1)
+
+BRR_mount = visnodes.VisTransform.createTransformNode(r"BRR_mount")
+scene.Audi_A8_Sedan_1.addChild(BRR_mount)
+scene.getTransformChild("BRR_mount")
+BRR_mount.setTranslation(-0.85999994277954, -0.8, 0.370000004768372)
+BRR_mount.setRotation(3.9793506945470711, 0, 0, 1)
+
+FLR_mount = visnodes.VisTransform.createTransformNode(r"FLR_mount")
+scene.Audi_A8_Sedan_1.addChild(FLR_mount)
+scene.getTransformChild("FLR_mount")
+FLR_mount.setTranslation(3.54000005722046, 0.8, 0.370000004768372)
+FLR_mount.setRotation(0.38397243543875226, 0, 0, 1)
+
+BLR_mount = visnodes.VisTransform.createTransformNode(r"BLR_mount")
+scene.Audi_A8_Sedan_1.addChild(BLR_mount)
+scene.getTransformChild("BLR_mount")
+BLR_mount.setTranslation(-0.85999994277954, 0.8, 0.370000004768372)
+BLR_mount.setRotation(2.3038346126325147, 0, 0, 1)
+
